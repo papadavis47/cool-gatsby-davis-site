@@ -9,10 +9,7 @@ const IndexPage = () => {
   return (
     <Layout pageTitle='Home Page'>
       <p>I'm making this by following the Gatsby Tutorial.</p>
-      <StaticImage
-        src='https://www.artofthetitle.com/assets/sm/upload/zp/xu/iy/zw/df.jpg?k=d079ece891'
-        alt='David Fincher, filmmaker'
-      />
+      <StaticImage src='../images/santiaguito.png' alt='My son, Santiago, with his scooter' />
     </Layout>
   );
 };
